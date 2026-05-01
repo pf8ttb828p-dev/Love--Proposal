@@ -47,7 +47,7 @@ button {
 
 <!-- 🎵 MUSIC -->
 <audio id="bgMusic" loop>
-  <source src="hareya.mp3" type="audio/mpeg">
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
 </audio>
 
 <div class="container" id="screen1">
