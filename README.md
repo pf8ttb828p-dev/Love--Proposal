@@ -45,9 +45,8 @@ button {
 
 <body>
 
-<!-- 🎵 SOFT MUSIC -->
 <audio id="bgMusic" loop>
-  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=soft-piano-ambient-110397.mp3" type="audio/mpeg">
+  <source src="music.mp3" type="audio/mpeg">
 </audio>
 
 <div class="container" id="screen1">
@@ -69,26 +68,26 @@ button {
 
 <script>
 
-let text = `Out of all the constellations in the sky, you are the brightest star that caught my eyes 💫
+let text = `Out of all the constellations in the sky, you are the brightest star that caught my eyes I have a deep feeling for u from the deep core of my heart from many days but I never have the potentiality to tell u so but today I m expressing my feelings for u… ✨❤️
 
-Pehle tum bas achhi lagi…
-phir dheere dheere tum meri aadat ban gayi 💖
+Pehle toh bas tum achhi lagi… phir dheere dheere tumhari aadat si ho gayi.
+Ab aisa lagta hai ki din tab tak complete nahi hota jab tak tumse baat na ho 💫
 
-Ab lagta hai din tab tak complete nahi hota jab tak tumse baat na ho…
+Tumhari smile me ek alag hi sukoon hai…
+aur tumhari baaton me wo feeling hai jo har baar mujhe aur paas le aati hai 💖
 
-Tumhari smile me ek alag hi sukoon hai 😊
-Aur tumhari baaton me wo feeling hai jo mujhe har baar tumhare paas le aati hai ❤️
+Kab ye sab itna special ho gaya, pata hi nahi chala…
+par ab itna zarur samajh aa gaya hai ki tum mere liye sirf ek normal insaan nahi ho.
 
-I really like you... and maybe more than that 💌`;
+Dekho ami jani ami perfect nhh kin2 akta ktha sccha j ami sarajibon saccha (loyal) thakmu aro tmk khushi rkhmuu…..
+Deho ami koidin pore getaise ga r tmk amk harabr chaina oijonna tmk ami ai kotha koita ato joldi share kortaise ar korar sahosh korsi …..tmk ami meladin hoilo like kori tar karon jdi pus koro oita ami koii—amma tmk bohut vlo pai r amr samnew koii tmr ktha tar pore tmr family o valo ahn tmi jdi pus koro j ato jldi love kebai hoilo hoo joldi hoise tmr jnne but ami tmk meladin hoilo dehi tar upure barit thika tmk like kore so ora toh r vul vaiba like korena ….hoo ora amk kunodin tmk potabar koinai jeita kuno parents ai kobona but tmk vlo paii oraa…❣️❣️
+
+Oijnna aiska seedha seedha apnek ami pus krtaisee…`;
 
 function nextScreen() {
     document.getElementById("screen1").style.display = "none";
     document.getElementById("screen2").style.display = "block";
-
-    let music = document.getElementById("bgMusic");
-    music.volume = 0.25;
-    music.play();
-
+    document.getElementById("bgMusic").play();
     typeEffect();
 }
 
