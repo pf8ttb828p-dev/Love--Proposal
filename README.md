@@ -45,9 +45,9 @@ button {
 
 <body>
 
-<!-- 🎵 MUSIC -->
+<!-- 🎵 SOFT MUSIC -->
 <audio id="bgMusic" loop>
-  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=soft-piano-ambient-110397.mp3" type="audio/mpeg">
 </audio>
 
 <div class="container" id="screen1">
@@ -69,14 +69,24 @@ button {
 
 <script>
 
-let text = `Out of all the constellations in the sky, you are the brightest star that caught my eyes... ❤️`;
+let text = `Out of all the constellations in the sky, you are the brightest star that caught my eyes 💫
+
+Pehle tum bas achhi lagi…
+phir dheere dheere tum meri aadat ban gayi 💖
+
+Ab lagta hai din tab tak complete nahi hota jab tak tumse baat na ho…
+
+Tumhari smile me ek alag hi sukoon hai 😊
+Aur tumhari baaton me wo feeling hai jo mujhe har baar tumhare paas le aati hai ❤️
+
+I really like you... and maybe more than that 💌`;
 
 function nextScreen() {
     document.getElementById("screen1").style.display = "none";
     document.getElementById("screen2").style.display = "block";
 
     let music = document.getElementById("bgMusic");
-    music.volume = 0.4;
+    music.volume = 0.25;
     music.play();
 
     typeEffect();
